@@ -10,6 +10,7 @@
 		6E621E2240888CB46FFC4E44 /* Pods_BottomSheetAboveNavigationBar_BottomSheetAboveNavigationBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF187B137CF559F37690715 /* Pods_BottomSheetAboveNavigationBar_BottomSheetAboveNavigationBarUITests.framework */; };
 		AA05F20BE735081B7D356DBB /* Pods_BottomSheetAboveNavigationBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183832972F98AB5BED4299D /* Pods_BottomSheetAboveNavigationBarTests.framework */; };
 		B55245680706CC4AA0A84540 /* Pods_BottomSheetAboveNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA41959378FDCDA5DF261ED3 /* Pods_BottomSheetAboveNavigationBar.framework */; };
+		D00DB9712D38DA8F00357168 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = D00DB9702D38DA8F00357168 /* FloatingPanel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,15 +66,11 @@
 		};
 		D00DB89A2D38CC8300357168 /* BottomSheetAboveNavigationBarTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = BottomSheetAboveNavigationBarTests;
 			sourceTree = "<group>";
 		};
 		D00DB8A42D38CC8300357168 /* BottomSheetAboveNavigationBarUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = BottomSheetAboveNavigationBarUITests;
 			sourceTree = "<group>";
 		};
@@ -85,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55245680706CC4AA0A84540 /* Pods_BottomSheetAboveNavigationBar.framework in Frameworks */,
+				D00DB9712D38DA8F00357168 /* FloatingPanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +115,6 @@
 				51636196CE88BE1B23BA80B0 /* Pods-BottomSheetAboveNavigationBarTests.debug.xcconfig */,
 				ABDE27F19D010A5B8CE32D3D /* Pods-BottomSheetAboveNavigationBarTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -253,6 +250,9 @@
 			);
 			mainGroup = D00DB8752D38CC8000357168;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D00DB96F2D38DA8F00357168 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D00DB87F2D38CC8000357168 /* Products */;
 			projectDirPath = "";
@@ -683,6 +683,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D00DB96F2D38DA8F00357168 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scenee/FloatingPanel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D00DB9702D38DA8F00357168 /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D00DB96F2D38DA8F00357168 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D00DB8762D38CC8000357168 /* Project object */;
 }

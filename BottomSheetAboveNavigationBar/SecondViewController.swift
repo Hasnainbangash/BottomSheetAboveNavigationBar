@@ -9,6 +9,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var imagesStackView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
