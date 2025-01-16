@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BottomSheetAboveNavigationBar_BottomSheetAboveNavigationBarUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BottomSheetAboveNavigationBar_BottomSheetAboveNavigationBarUITests
+@end
