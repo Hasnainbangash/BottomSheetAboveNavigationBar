@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "calm-weather-on-sea-ocean-600nw-2212935531.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "calm-weather-on-sea-ocean-600nw-2212935531@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "calm-weather-on-sea-ocean-600nw-2212935531@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
